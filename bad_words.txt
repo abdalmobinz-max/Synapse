@@ -1,0 +1,459 @@
+ # Hindi / Hinglish Gaali
+    'bc', 'mc', 'bkl', 'chutiya', 'chutya', 'chutia', 'chutiye',
+    'madarchod', 'madharchod', 'madherchod', 'madarchode', 'madar chod',
+    'behnchod', 'bhainchod', 'bhench*d', 'bh3nchod',
+    'bhosdike', 'bhosdi', 'bhosda', 'bhosdika', 'bhosdikaa', 'bhosdikay', 'bhosadikay',
+    'gandu', 'gandu#', 'gand', 'ga@nd', 'g*nd',
+    'chod', 'choda', 'chudo', 'chodu', 'chodo', 'chudai', 'chuda',
+    'lund', 'l*nd',
+    'launda', 'laundiya', 'lodu',
+    'randi', 'rand', 'r@ndi',
+    'kutta', 'kute', 'kutti', 'kutt@', 'kuttiya',
+    'kamina', 'harami', 'nalle',
+    'jhatu', 'jha@tu', 'jhant', 'jhanto',
+    'tharki', 'chot', 'ch0t', 'chotiya', 'chotiye',
+    'bakchod', 'bakchodi',
+    'bhand', 'tatti', 'bhangi', 'sala', 'saala', 'saale',
+    'chaka', 'muth', 'gandfat',
+    'gand mara', 'gand chodne', 'gand chat',
+    'jhant chaat',
+    'teri ma', 'terima', 'tera bap', 'terabap',
+    'gand me le',
+    'teri behen', 'behen ka', 'maa chod', 'behen chod',
+    'maa ka', 'behen ka loda', 'behenkaloda',
+    'kute ki aulad',
+    'laude', 'bur', 'chuchi',
+    'dogla', 'chut', 'chutpaglu',
+    'ghop', 'kotha', 'kothe', 'rndi', 'mkc', 'bsdk',
+
+    # --- English Swears ---
+    'fuck', 'fucks', 'fucked', 'fucking', 'fucker',
+    'shit', 'shits', 'shitty',
+    'bitch', 'bitches', 'bitchass',
+    'bastard', 'ashole', 'asshole', 'arsehole',
+    'dick', 'dickhead', 'cock', 'cockhead', 'cocky',
+    'pussy', 'pusy',
+    'slut', 'slutty',
+    'whore',
+    'cunt',
+    'douche', 'douchebag',
+    'cum', 'cumming',
+    'wanker', 'jerk', 'twat', 'skank',
+    'dipshit', 'bullshit', 'dogshit',
+    'retard',  # allowed in moderation context
+    'dumbass', 'moron',
+    'piss off', 'piss of',
+    'hoe',
+    'porn', 'blowjob', 'handjob', 'titjob', 'orgasm',
+    'mf', 'wtf', 'stfu', 'gtfo',
+    'your mom', 'your sister',
+    'go to hell', 'go to hel', 'burn in hell',
+    'die bitch', 'go suck', 'suck my',
+    'lick my', 'lick ur', 'lick your mom',
+
+    # --- Dangerous phrases ---
+    'fuckface', 'fuckhead', 'fuckoff',
+    'screw you', 'screw u',
+    'jackass', 'jerkoff',
+    'bullshit', 'dipshit',
+
+    # --- Obfuscated + Symbol Variants ---
+    'f.u', 'f.u.', 'f.u.c.k', 'f-u', 'f u', 'f u k',
+    'f@ck', 'f#ck', 'fu*k', 'fu**', 'f***', 'f*ck',
+    'sh1t', 'sh!t', 's#it', 's.h.i.t',
+    'a$$', 'a.s.s',
+    'b!tch', 'b*tch', 'b1tch',
+    'c*nt', 'c@nt',
+    'd!ck', 'd1ck', 'di*k', 'd1*k',
+    'p*ssy', 'p@ssy', 'p!ssy',
+    'w#ore', 'wh0re', 'wh@re',
+    's1ut', 'sl*t', 's!ut',
+    'm@darchod', 'b.chod', 'm.chod',
+    'g@ndu',
+    'ch*tia', 'chu***', 'chu*tiya',
+    'jha@tu',
+    'l*nd',
+    'r@pe', 'ra*e',
+
+    # --- Deformed Hindi Variants ---
+    'mad4rch0d', 'madar chodh',
+    'bhench*d', 'bh3nchod',
+    'chuty4', 'ch0t',
+
+    # --- English Deformed Variants ---
+    'fuk', 'fuxk', 'fock', 'fawk', 'fak u',
+    'sh1tty', 'sh!tty',
+    'b1tches', 'b!tches',
+    'c0ck', 'c0cks', 'cok',
+    'd1cks', 'd!cks',
+    'wh0r3', 'wh0ree',
+    'slvt', 's1utty',
+    'cnt', 'cu*t', 'kxnt',
+    'w4nker', 'w@nk', 'w@anker',
+    'cr@p', 'cr4p',
+    'bj', 'b.j.',
+    'p0rn', 'pr0n',
+    'cumshot', 'cumm', 'cummm',
+
+    # --- Toxic compact phrases ---
+    'fml', 'wtf', 'stfu', 'gtfo',
+    'u suck', 'you suck',
+    'trash kid', 'go cry',
+    'ratio', 'cope', 'seethe',
+
+    #new list update 1.1
+    "fuck", "fucks", "fucked", "fucking", "fucc", "fuc", "fuk", "fuking", "fukin",
+    "fuckoff", "fuck you", "fuck u", "fu", "f u",
+    "motherfucker", "motherfucking", "mofo",
+    "mf", "mfk", "mfer",
+
+    "shit", "shits", "shitty", "shithead", "shitface", "shitbag",
+    "bullshit", "bs", "bsdk", "dipshit", "dogshit", "horseshit",
+
+    "bitch", "bitches", "bitching", "bitchass", "bitchboy", "bitchmade",
+    "biatch", "b1tch", "b!tch",
+
+    "asshole", "ass", "asses", "asshat", "asswipe", "asslicker", "asslick",
+    "dumbass", "smartass", "jackass", "fatass", "lazyass",
+
+    "bastard", "bastards",
+
+    "dick", "dicks", "dickhead", "dickface", "dickweed", "dickless", "dicktard",
+    "cock", "cocks", "cockhead", "cockface", "cockboy",
+    "coon",  # NON-protected-class insult type
+    "prick", "pricks", "prickhead",
+
+    "pussy", "pussies", "pusy", "pussi", "puss", "pussbag", "pussface",
+    "pussycat"  # sometimes misused
+
+    "cunt", "cunts", "cuntbag", "cuntface",
+
+    "slut", "sluts", "slutty",
+
+    "whore", "whores", "whoring", "wh0re", "wh@re",
+    "hoe", "hoes", "h0e", "h0es",
+
+    "skank", "skanky",
+
+    "twat", "twats", "twatwaffle", "twatface",
+
+    "jerk", "jerkoff", "jerking",
+
+    "wanker", "wank", "wanking",
+
+    "douche", "douchebag", "douchebags", "douchelord",
+
+    "moron", "idiot", "dumb", "stupid", "retard", "retarded", "rmoron",
+    "numskull", "airhead", "blockhead", "bonehead",
+
+    "loser", "l0ser", "noob", "nub", "scrub", "trash",
+
+    "piss", "pissed", "piss off", "pissface", "pisshead", "pisslick",
+    "pissbrain",
+
+    "crap", "crappy", "crapface", "craphead",
+
+    "hell", "go to hell", "burn in hell",
+
+    "cum", "cumming", "cumshot", "cumdump", "cumface", "cumlord",
+    "jizz", "jizzed",
+
+    "porn", "porno", "pornhub", "hentai", "nsfw",  # often used in toxic chats
+
+    "orgasm", "handjob", "blowjob", "titjob",
+
+    "ballsack", "ballbag", "nutsack",
+
+    "fapper", "fap", "fapping",
+
+    "rape", "raped", "raping", "r@pe", "r4pe",  # added because used as abuse
+
+    "kill yourself", "kys", "kms", "die bitch", "die bastard", "go die",
+
+    "screw you", "screw u", "screw off",
+
+    "go fuck yourself", "gfys",
+
+    "dumbfuck", "stupidfuck", "idiotfuck",
+
+    "fuckface", "fuckhead", "fuckbrain", "fuckstick", "fucktard",
+
+    "numb nut", "num nuts", "numbnuts",
+
+    "dickbrain", "dickbreath", "dickbag",
+
+    "butthead", "fartface", "fartbrain",
+
+    "suck my", "suck ur", "suck your", "go suck",
+
+    # — Obfuscated spellings —
+    "f.u.c.k", "f.u", "f.u.", "f-u", "f-ck", "f*ck", "fu*k", "f**k",
+    "sh1t", "sh!t", "s.h.i.t", "s#it",
+    "b1tch", "b!tch", "b*tch",
+    "c*nt", "c@nt",
+    "d1ck", "d!ck", "di*k",
+    "p*ssy", "p@ssy", "p!ssy",
+    "wh0re", "wh0r3",
+    "sl*t", "s1ut", "s!ut",
+
+    # — Compound toxic phrases —
+    "you suck", "u suck", "ur trash", "u trash", "trash kid",
+    "shut up", "shut the fuck up", "stfu",
+    "wtf", "tf you doing", "tf u doing",
+    "gtfo", "get lost",
+    "go cry", "cry more", "stay mad", "ratio", "cope", "seethe",
+
+    # — More variations for coverage —
+    "bollocks", "bloody hell",
+    "bugger", "bugger off",
+    "tosser",
+    "git",
+    "pillock",
+    "wuss",
+    "dipstick",
+    "twit",
+    "burndown",  # abusive context
+    "trashcan",
+    "dumpsterfire",
+    "garbage human",
+
+    # — Additional internet slang —
+    "lmao kill yourself", "unalive yourself",
+    "fml",
+    "lmfao fuck you",
+    "ez clap kid",
+    "sit kid",
+    "cry about it",
+
+    # — Stronger insult clusters (no protected classes) —
+    "subhuman", "degenerate", "worthless", "pathetic", "disgrace",
+    "brain-dead", "brainless", "mindless", "halfwit",
+    "meathead", "thickhead", "dimwit", "simpleton",
+    "scumbag", "filth", "vermin",
+
+    # Enough variations to match stretched text after normalization
+    "fuuuck", "shiiit", "biiiitch", "daaamn", "heeeell", "pissss",
+    "whorrrre", "cummmm", "sluttt", "assss", "diiiiick",
+
+    #new list upadate 1.2
+    "fuck", "fucks", "fucked", "fuk", "fuc", "fock", "focku", "fockoff",
+    "fucc", "fuccc", "fukk", "fukked", "fukkin", "fukin", "fucken",
+    "f.u.c.k", "f.u", "f u", "f-u", "f*ck", "f**k", "f***", "f#ck", "f@ck",
+    "fu*k", "fuk*", "fuc*", "f.c.k", "f.ck", "f.cku",
+
+    "motherfucker", "motherfuker", "motherfukin", "mothafucka",
+    "mothafukka", "mthrfckr", "m0therfucker", "m0f0",
+
+    "mf", "mfk", "mfer", "mfker", "mfkr", "m.f.", "m f",
+
+    "shit", "shits", "shitty", "sh1t", "sh!t", "shyt", "shieet",
+    "shiit", "shiiit", "shiiiit", "s.h.i.t", "s#it", "s@it",
+    "bullshit", "bullsh1t", "bullsh*t", "bs", "b.s.", "bsh",
+
+    "bitch", "bitches", "bitchy", "b1tch", "b!tch", "b*tch", "btch",
+    "biatch", "biyatch", "bich", "bichh", "biiitch", "biiiitch",
+    "b*tchass", "bitchass", "bitchboy", "b1tchboy",
+
+    "ass", "asses", "azz", "azzhole", "as$", "a$$", "a$s",
+    "asshole", "assh0le", "a55hole", "assh0l3",
+    "asshat", "assclown", "asswipe", "asslick", "asslicker",
+    "dumbass", "smartass", "jackass", "fatass", "lazyass",
+
+    "dick", "d1ck", "d!ck", "di*k", "dik", "dikk", "diiick",
+    "dickhead", "dickh3ad", "d1ckhead", "dickface",
+    "dickbag", "dickweed", "dickless", "dicktard", "d1cktard",
+    "cock", "c0ck", "c0k", "cocc", "cok", "cawk", "kawk",
+    "cockhead", "cockface", "cockboy",
+
+    "prick", "pr1ck", "pr!ck", "prik", "prikk", "pr1k",
+
+    "pussy", "pussies", "pusy", "pussi", "puzzy",
+    "p*ssy", "p@ssy", "p!ssy", "pussi3", "puss3",
+    "pussbag", "pussface",
+
+    "cunt", "cunts", "c*nt", "c@nt", "c#nt", "cuuuunt",
+    "cuntbag", "cuntface",
+
+    "slut", "sluts", "slutty", "slvt", "sl*t", "s1ut", "s!ut",
+
+    "whore", "wh0re", "wh0r3", "wh0ree", "whoar",
+    "w.h.o.r.e", "w*ore", "whorre", "whorebag",
+
+    "hoe", "h0e", "hoeee", "ho3", "h0r", "hoar",
+
+    "skank", "sk@nkk", "skankk", "sk4nk",
+
+    "twat", "tw@t", "tw*t", "twaat", "twaaat", "twatface",
+
+    "jerk", "jerkoff", "j3rk", "jerkk", "jerk0ff",
+
+    "wank", "wanker", "w@nker", "wank3r", "wannker",
+    "w4nker", "wankk", "wankoff",
+
+    "douche", "douchebag", "d0uche", "d0uchebag",
+    "douch3", "douchelord", "doucheface",
+
+    "idiot", "1diot", "id1ot", "idi0t", "idiott", "idiotic",
+    "moron", "m0ron", "moronn", "m0r0n",
+
+    "dumb", "dummb", "dumm", "dumbfuck", "dumbfuk", "dumbf*ck",
+
+    "stupid", "st00pid", "stoopid", "stupd", "stpid",
+    "stupidfuck", "stupidfuk",
+
+    "retard", "r3tard", "ret@rd", "ret4rd", "r*tard",  # (allowed insult type)
+
+    "trash", "tr@sh", "tra$h", "garbage human", "dumpsterfire",
+
+    "piss", "pisss", "p1ss", "p!ss", "pis$", "pissface",
+    "pisshead", "pisslick", "pissbrain",
+
+    "crap", "cr@p", "cr4p", "crappy", "craphead", "crapbag",
+
+    "hell", "h3ll", "he11", "hellhole", "go to hell", "burn in hell",
+
+    "cum", "cumm", "cumming", "c*m", "c@mm", "cumshot",
+    "cumface", "cumdump", "c.u.m", "cummm",
+
+    "jizz", "j1zz", "j!zz", "jiz", "j1z", "jizzed",
+
+    "blowjob", "bl0wjob", "blow j0b", "bj", "b.j.",
+
+    "handjob", "h4ndjob", "handj0b",
+
+    "porn", "p0rn", "pr0n", "porno", "p0rno", "pr0nhub",
+
+    "fap", "f@p", "fapp", "fapper", "fapping",
+
+    "rape", "r@pe", "ra.pe", "r4pe", "r@p3",
+    "raped", "raping",  # moderation use
+
+    "kys", "kms", "kill yourself", "go die", "die bitch", "unalive yourself",
+
+    "screw you", "screw u", "scr3w you", "scr*w you",
+
+    "shut up", "stfu", "shut the fuck up", "stf.u", "st.f.u",
+    "gtfo", "g.t.f.o",
+
+    "you suck", "u suck", "ur trash", "u trash", "trash kid",
+    "trashcan", "trashlord",
+
+    "ratio", "cope", "seethe", "cry more", "sit kid", "ez clap",
+
+    "loser", "l0ser", "l05er", "looser",
+    "noob", "nub", "n00b", "n0ob",
+
+    "degenerate", "worthless", "pathetic", "disgrace",
+
+    "brain-dead", "braindead", "brainless", "mindless",
+
+    "subhuman", "meathead", "dimwit", "half-wit", "halfwit",
+
+    "whorrrre", "fuuuck", "shiiit", "biiiitch", "daaamn", "heeeell",
+    "pissss", "cummmm", "sluttt", "assss", "diiiiick",
+
+    # More symbol variants
+    "$hit", "@ss", "f%ck", "%uck", "f^ck", "&uck", "fu©k", "fu€k",
+
+    # spaced variants
+    "f u c k", "f u k", "f  u  c  k", "s h i t", "b i t c h", "c u n t",
+
+    # joined toxic phrases
+    "dieinsid3", "burnbitch", "dumbshit", "fuckbrain", "fuckstick",
+
+    # broken spellings
+    "fak u", "fak off", "fak yo", "shid", "shat", "bish", "beesh",
+
+    # --- "fuck" family ---
+    'fk', 'fkn', 'fkk', 'fk u', 'fk off',
+    'fak', 'fak u', 'fakoff',
+    'fuc', 'fuk', 'fukk', 'fuxk', 'fux', 'fck', 'f*k',
+    'fck u', 'fckoff', 'fckin', 'fcking',
+    'fooking', 'foocking', 'fook', 'fooku',
+    'f4ck', 'f@k', 'f@kk', 'fuq', 'fuqq',
+    'fokk', 'focku', 'focking',
+
+    # --- "shit" family ---
+    'shet', 'shat', 'shyt', 'shidt', 'shid', 'shittt',
+    'sh!t', 'sh1t', 'shyt', 'shiet',
+    'shi', 'shiit', 'shii', 'shyyy',
+    'shytface', 'shytbag',
+
+    # --- "bitch" family ---
+    'bich', 'bichh', 'biich', 'bichh', 'bhich', 'b!ch', 'b1ch',
+    'bichass', 'bichboy', 'bichface',
+    'betch', 'bech', 'beeetch',
+    'bichiye', 'bitsh', 'btch',
+
+    # --- "cunt" family ---
+    'cnt', 'knt', 'kunt', 'c@nt', 'c*nt', 'cuntz',
+    'cund', 'kunte', 'kuntt', 'cuntii',
+    'c*ntz', 'k@nt',
+
+    # --- "whore" / "hoe" family ---
+    'ho', 'hoe', 'h0e', 'hoee', 'hoo', 'hor', 'h0r',
+    'whoer', 'whor', 'wh0r3', 'wh0r', 'whr', 'whoar',
+
+    # --- "slut" family ---
+    'sluttt', 'slutt', 'slutyy', 'slvt',
+    'sloot', 'slootie', 'sl00t',
+
+    # --- "ass / asshole" family ---
+    'az', 'azz', 'azzhol', 'ashol', 'ashhole',
+    'ashol3', 'a$$', 'azzbag', 'azzface',
+    'assh', 'assh0l', 'ashol', 'asshll',
+
+    # --- "dick / cock" family ---
+    'dik', 'dikk', 'deek', 'diq', 'd!q', 'd1k', 'deq',
+    'd!k', 'd1ck', 'diqq', 'dikkhead',
+    'cok', 'coq', 'cawk', 'ck', 'c*ck', 'kawk',
+    'cokk', 'coc', 'cocck', 'c0k', 'c0ck',
+
+    # --- "pussy" family ---
+    'pusi', 'pusy', 'pussi', 'puzzie', 'puxxy',
+    'p*ssy', 'p@ssy', 'p!ssy', 'p0ssy',
+    'pusee', 'pusey',
+
+    # --- "jerk / wank" family ---
+    'j3rk', 'jerkk', 'jirk', 'jirkoff',
+    'wankr', 'wankk', 'w@nk', 'w@anker', 'wankoff',
+
+    # --- "crap" family ---
+    'crp', 'cr@p', 'c4ap', 'crapp', 'crpp',
+
+    # --- sexual/general insults ---
+    'cumz', 'kum', 'cummm', 'c*m', 'c@mm', 'kumm',
+    'nutjob', 'nuthead', 'nutbag',
+    'bj', 'b.j', 'bl0wjob', 'hndjob', 'handj0b',
+
+    # --- violent/expression insults ---
+    'die mf', 'die bish', 'die bich',
+    'get lost', 'perish',
+    'kms', 'go die', 'rot bitch',
+
+    # --- modern slang toxicity ---
+    'u trash', 'ur trash', 'trashkid', 'trash can',
+    'brokie', 'npc', 'bot behaviour',
+    'ez clap', 'sit kid', 'kiddo shutup',
+    'cry more', 'cope harder', 'ratio kid',
+
+    # --- obfuscated / leetspeak ---
+    'f.u.k', 'f.u.q', 'f.u.c', 'f^ck', 'f%ck',
+    '$hit', '5hit', '@ss', '@$$',
+    'b!ch', 'b!tch', 'b1tch',
+    'c#nt', 'c8nt',
+
+    # --- purposely broken for bypass ---
+    'f u k', 'f u c', 'shi t', 'sh it',
+    'bi tch', 'bichh', 'b itch',
+    'cu nt', 'co ck',
+
+    # --- plural & extended ---
+    'biches', 'bisch', 'btches',
+    'fuks', 'fukrz', 'fkrs', 'fkrr',
+    'shyts', 'shiets',
+    'cunts', 'slutts', 'whores',
+
+    # --- common India-English alternate spellings ---
+    'bichod', 'bichdia', 'madarch0d', 'mc bc', 'mc-bc', 'mcbc',
+    'randii', 'bhosrii', 'gandiu', 'laudey', 'laudeya', 'laudk',
